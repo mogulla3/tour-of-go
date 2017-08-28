@@ -10,6 +10,8 @@ import "fmt"
 
 func main() {
 	sum := 0
+
+	// iはforループ内でのみ参照できる
 	for i := 0; i < 10; i++ {
 		sum += i
 	}
